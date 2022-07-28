@@ -110,7 +110,7 @@
             </div>
         </section>
         <!-- course details  -->
-        <section class="container mt-5 pt-5">
+        <section class="container mt-5 pt-5 mb-5">
             <div class="text-center pb-4">
                 <h1 class="text-dark fw-bolder">Discover Our Popular <br>
                     Courses</h1>
@@ -241,8 +241,55 @@
 
                 </div>
             </div>
-            <div class="d-flex justify-content-center fw-semibold">
+            <div class="d-flex justify-content-center fw-semibold pt-4 pb-5">
                 <button class="btn btn-primary ">See More Courses</button>
+            </div>
+        </section>
+
+        <!-- Register  -->
+        <section
+            class="container d-flex justify-content-around align-items-center bg-primary p-5 opacity-75 mb-5 rounded">
+            <div class="text-white d-flex flex-column pt-3">
+                <h1>Ready to join?
+                </h1>
+                <p> It is a long established fact that a reader will be distracted by the <br>
+                    readable content of a page when looking at its layout.</p>
+            </div>
+            <div>
+                <button type="button" class="btn bg-white text-primary fs-5 fw-semibold" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
